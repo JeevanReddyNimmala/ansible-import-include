@@ -10,7 +10,7 @@
 
 - name: change the variables
   set_fact:
-    OS == "Debian"  
+    OS: "Debian"  
 
 - name: msg-3
   debug:
