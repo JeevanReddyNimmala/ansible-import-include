@@ -8,6 +8,10 @@
   tags:
   - hi     
 
+- name: change the variables
+  set_fact:
+    OS == "Debian"  
+
 - name: msg-3
   debug:
     msg: "hi am from Msg3" 
