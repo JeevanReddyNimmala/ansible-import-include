@@ -3,7 +3,7 @@
     msg: "hi am from Msg1" 
 
 - name: msg-2
-  debug1:
+  debug:
     msg: "hi am from Msg2"  
   tags:
   - hi     
