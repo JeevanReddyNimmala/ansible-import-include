@@ -1,0 +1,17 @@
+- name: msg-1
+  debug:
+    msg: "hi am from Msg1" 
+
+- name: msg-2
+  debug:
+    msg: "hi am from Msg2"  
+  tags:
+  - hi     
+
+- name: msg-3
+  debug:
+    msg: "hi am from Msg3" 
+
+- name: msg-4
+  debug:
+    msg: "hi am from Msg4"      
